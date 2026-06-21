@@ -1,9 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-primary: #6366f1; /* Indigo */
-  --color-brand-secondary: #f59e0b; /* Amber/Gold */
-  --color-brand-accent: #10b981; /* Emerald */
+  --color-brand-primary: #8CC63F; /* Green */
+  --color-brand-secondary: #3C3C3C; /* Charcoal */
+  --color-brand-accent: #FF7A00; /* Orange */
+  
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-heading: var(--font-syne), sans-serif;
   
   --animate-float: float 8s ease-in-out infinite;
   --animate-float-delayed: float-delayed 10s ease-in-out infinite;
@@ -25,10 +28,10 @@
   }
   @keyframes glow {
     from {
-      text-shadow: 0 0 10px rgba(99, 102, 241, 0.2), 0 0 20px rgba(99, 102, 241, 0.1);
+      text-shadow: 0 0 10px rgba(140, 198, 63, 0.2), 0 0 20px rgba(140, 198, 63, 0.1);
     }
     to {
-      text-shadow: 0 0 20px rgba(99, 102, 241, 0.4), 0 0 30px rgba(99, 102, 241, 0.2);
+      text-shadow: 0 0 20px rgba(140, 198, 63, 0.4), 0 0 30px rgba(140, 198, 63, 0.2);
     }
   }
   @keyframes slide-up {
@@ -45,7 +48,7 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--font-sans);
   overflow-x: hidden;
   scroll-behavior: smooth;
 }

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Styles inside the SVG to keep it self-contained -->
+  <style>
+    .text-green { fill: #8CC63F; font-family: system-ui, sans-serif; font-weight: 600; font-size: 38px; }
+    .text-charcoal { fill: #3C3C3C; font-family: system-ui, sans-serif; font-weight: 600; font-size: 38px; }
+  </style>
+
+  <!-- "turn" -->
+  <text x="10" y="42" class="text-green">turn</text>
+
+  <!-- "key" -->
+  <text x="82" y="42" class="text-charcoal">key</text>
+
+  <!-- "bs" -->
+  <text x="142" y="42" class="text-green">bs</text>
+
+  <!-- Brand Accent Dashes under logo -->
+  <g transform="translate(10, 50)">
+    <rect x="0" y="0" width="48" height="3.5" rx="1.75" fill="#3C3C3C" />
+    <rect x="51.5" y="0" width="48" height="3.5" rx="1.75" fill="#FF7A00" />
+    <rect x="103" y="0" width="48" height="3.5" rx="1.75" fill="#3C3C3C" />
+    <rect x="154.5" y="0" width="48" height="3.5" rx="1.75" fill="#8CC63F" />
+  </g>
+</svg>
